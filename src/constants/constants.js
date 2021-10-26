@@ -1,46 +1,18 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Bad Bank Three-Tier',
+    description: `"Bad Bank" is my MIT capstone application with a front-end, back-end, and database. The Bad Bank name refers to the project's earlier iteration where it was a banking application that was not secure (i.e. no login, no administrative privileges). However, we will be using firebase authentication and authorization to create different levels of authorization to turn "Bad Bank" into a more secure bank - a lot like what a really company might use. This project was created in my effort to learn how to build a complete 3-tier application and it will continue to grow as my knowledge of application development grows. It is also designed to be an easy way to show off things I've learned in my Master's Full Stack Development program.`,
+      image: '/images/badbank.png',
+      tags: ['Mongo', 'React', 'Express', 'Node', 'Docker'],
+    source: 'https://badbank-docker-edvmxc3iaa-uw.a.run.app',
+    visit: 'https://github.com/clarkjoey/BadBank-three-tier',
     id: 0,
-  },
-  {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+  }
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2015, text: 'Started learning to code with Java', },
+  { year: 2019, text: 'Picked coding back up with R Studio', },
+  { year: 2020, text: 'Started my Masters in Full Stack Development', },
+  { year: 2021, text: 'Graduated from Masters program', },
 ];

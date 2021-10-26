@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I started my career in the medical field and after I saw the need for automated data analysis in my workplace, I set a goal for myself to go back to school and learn how to code. Now, I am freshly graduated from my Full Stack Development Masters program at MIT and ready to join a workplace that I can grow with and learn from.
+      I have a year of my Masters degree devoted to full-stack development, with an emphasis on the MERN stack (MongoDB, Express.js, React, Node.js). I also have had a year of introductory Java computer science courses in my undergrad at UW and I have been coding on my own for about 5 years now with a variety of different languages. All this has made me a very intuitive learner and problem solver. If I do not know the solution, I know how to use my resources to find it.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
